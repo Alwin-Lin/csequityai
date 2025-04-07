@@ -1,0 +1,25 @@
+/* style.css */
+
+:root {
+  --primary-color: #2E8B57; /* Sea Green */
+  --secondary-color: #F0E68C; /* Khaki */
+  --heading-font: 'Arial Black', sans-serif;
+  --body-font: 'Verdana', sans-serif;
+}
+
+body {
+  font-family: var(--body-font);
+  color: #333; /* Or any other appropriate text color */
+  margin: 0; /* Reset default margins */
+  padding: 0; /* Reset default padding */
+}
+
+h1, h2, h3 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+.highlight {
+  background-color: var(--secondary-color);
+  padding: 5px;
+}
